@@ -553,6 +553,14 @@ margin: 0 auto;
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
+.proj-button:link, .proj-button:visited {
+	background-color: tomato;
+	padding: 1em;
+	color:black;
+	border-radius: 15px;
+	text-decoration: none;
+
+}
 
 /* End Projects section */
 
@@ -836,7 +844,7 @@ button[type="submit"]{
 
 @keyframes text_reveal_name {
 	100% {
-		color: gold;
+		color:#eb9c0a;
 		font-weight: 500;
 	}
 }
