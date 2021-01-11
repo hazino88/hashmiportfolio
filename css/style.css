@@ -229,12 +229,19 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(../img/backgroundimg.jpg);
+	background-image: url(../img/backgroundimg1.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: static;
 	z-index: 1;
 }
+.links {
+    margin-top: 1rem; }
+     .links a {
+      padding: 0.4rem; }
+       .links a:hover {
+        color: #eece1a;
+        transition: all 0.5s ease-out; }
 
 #hero::after {
 	content: "";
@@ -844,7 +851,7 @@ button[type="submit"]{
 
 @keyframes text_reveal_name {
 	100% {
-		color:#eb9c0a;
+		color: white;
 		font-weight: 500;
 	}
 }
