@@ -235,14 +235,20 @@ p {
 	position: static;
 	z-index: 1;
 }
-.links {
-    margin-top: 1rem; }
-     .links a {
-      padding: 0.4rem; }
-       .links a:hover {
-        color: #eece1a;
-        transition: all 0.5s ease-out; }
-
+.fab {
+	padding: 10px;
+	font-size: 50px;
+	width: 10px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	display: inline;
+	
+  }
+  .fab:hover {
+    opacity: 0.7;
+}
 #hero::after {
 	content: "";
 	position: absolute;
