@@ -249,6 +249,17 @@ p {
   .fab:hover {
     opacity: 0.7;
 }
+.fa-linkedin {
+	
+	color:goldenrod;
+  }
+.fa-github {
+	
+	color:goldenrod;
+  }
+
+
+
 #hero::after {
 	content: "";
 	position: absolute;
